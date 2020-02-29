@@ -1,0 +1,281 @@
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none !important;
+}
+
+.link{
+	text-decoration:none !important;
+	background-color:#2E2E2E !important;
+}
+
+
+
+.menu{
+	margin-top: 0px;
+}
+
+.menu td a{
+	color:#000;
+}
+
+.menu td{
+		padding: 10px;
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		cursor: pointer;
+		font-size: 14epx;
+		color: #000 !important;
+}
+
+.menu td:hover{
+		color: #6bbb57;
+}
+
+
+.ukslide{
+	height: 400px !important; 
+}
+
+
+
+.bgSlide{
+	width:100%;
+	display:block !important; 
+}
+
+.slideImage{
+	box-shadow:#979797 0px 0px 25px 0px;
+}
+
+.navHeader{
+	padding:10px 50px;
+	z-index:3000;
+	background-color:#FFF;
+	box-shadow:0 2px 6px 0 rgba(49,53,59,.12);
+
+}
+
+.logo{
+	height: 50px;
+	width: 50px;
+}
+
+.divHeader{
+	background-color:#225d9f;
+	color:#FFF;
+	padding:px 20px;
+	font-weight:600;
+	font-size:18px;
+	border-radius:7px 7px 0px 0px;
+	cursor:pointer;
+}
+
+.divBar {
+	z-index:2;
+}
+
+@media only screen and (max-width: 600px) {
+    .divBar {
+		width: 95%;
+		margin-top:150px;
+	}
+	
+	.divBar2 {
+		width: 90%;
+	}
+	
+	.navHeader{
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 200px) {
+    .divBar {width: 90%;margin-top:0px;}
+	.divBar2 {width: 90%;}
+	.fl-visible{
+		display:block;
+	}
+	.ukbanner{
+		height: 150px !important;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+    .divBar {width: 90%;margin-top:0px;}
+	.divBar2 {width: 90%;}
+	.fl-visible{
+		display:block;
+	}
+	.ukbanner{
+		height: 250px !important;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .divBar {width: 90%;margin-top:0px;}
+	.divBar2 {width: 75%;}
+	.fl-visible{
+		display:block;
+	}
+	.ukbanner{
+		height: 290px !important;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .divBar {width: 85%;margin-top:0px;}
+	.divBar2 {width: 75%;}
+	.fl-visible{
+		display:block;
+	}
+	.ukbanner{
+		height: 390px !important;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .divBar {width: 85%;margin-top:0px;}
+	.divBar2 {width: 85%;}
+	.fl-visible{
+		display:none;
+	}	
+	.ukbanner{
+		height: 400px !important;
+	}
+}
+
+
+.container2{
+	padding: 80px 20px;
+	margin-top: 30px;
+	font-weight: 630;
+	font-size:26px;
+	background-color: #7fa448;
+	color: #000;
+}
+
+.container3{
+	padding: 30px 20px;
+	padding-bottom: 60px;
+	margin-top: 30px;
+	color: #000;
+	width: 80%
+}
+
+.container4{
+	padding: 80px 20px;
+	color: #000;
+	width: 80%;
+}
+
+.container5{
+	padding: 30px 20px;
+	font-weight: 630;
+	font-size:26px;
+	background-color: #6bbb57;
+	color: #fff;
+}
+
+
+
+.button-fl{
+	height:3em;
+	color:#FFF;
+	font-size:14px;
+	padding:0px 30px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+
+.title{
+	padding: 10px 0px;
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.title2{
+	padding: 10px 0px;
+	font-weight: 600;
+	font-size: 38px;
+	color:#fff;
+	margin-bottom: 20px;
+}
+
+.title3{
+	font-weight: 600;
+	font-size: 30px;
+	color:#fff;
+	margin-bottom: 20px;
+}
+
+.footer{
+	padding: 20px;
+	color: #000;
+}
+
+.drops li{
+	padding-top: 6px;
+}
+
+.accordion li{
+	padding-left: 15px;
+	padding: 10px;
+	border-left: #F60 5px solid;
+	background-color: #fbfbfb;
+}
+
+.uk-card{
+	margin-top: 20px;
+}
+
+.uk-card-title{
+	font-size: 20px !important;
+	font-weight: 600;
+}
+
+.nav{
+	 background-color: #fbfbfb;padding: 15px;margin-right: 50px;
+	 margin-left: 50px;
+	 z-index:1000 !important;
+}
+
+.profil{
+	width: 80%;
+	text-align: justify;
+	padding-top: 40px;
+	padding-bottom: 40px
+}
+
+.iconnav{
+	font-size: 10px !important;
+}
+
+.uk-slideshow-items{
+	position: inherit; !important;
+}
+
+.nav-hidden{
+	padding: 10px;
+}
+
+.nav-menu ul li a{
+	color:red !important;
+}
+
+.arrow{
+	height: 40px;
+}
+
+.arrow:hover{
+	box-shadow: #000 0px 0px 80px 0px;
+}
